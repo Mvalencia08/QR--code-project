@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Outfit";
+  src: url("Outfit-Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("Outfit-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.QR {
+  background-color: white;
+  width: 440px;
+  height: 640px;
+  margin: 100px auto;
+  
+  border-radius: 15px;
+  box-shadow: 5px 10px 20px 10px hsl(213, 16%, 73%);
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+p,
+h2 {
+  font-family: 'Outfit', sans-serif;
+  
+}
+
+h2 {
+  font-weight: 700;
+  text-align: center;
+  width: 450px;
+  margin: 0 auto;
+  margin-top: 10px;
+
+}
+
+p {
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  width: 380px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+img {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  height: 400px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  border-radius: 15px;
+}
+
+@media only screen and (min-width: 376px) {
+  
+}
